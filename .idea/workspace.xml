@@ -4,15 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6678c72d-4632-4dbd-b4be-8bd4ae90053f" name="Changes" comment="" />
+    <list default="true" id="6678c72d-4632-4dbd-b4be-8bd4ae90053f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Java_PV122.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/AdditionalResourceWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/security/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/constants/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/account/AuthResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/account/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/category/CategoryCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/category/CategoryModelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dto/category/CategoryUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/UserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/UserRolePK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mappers/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositories/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/SeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/FileSystemStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/StorageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/StorageFileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/StorageProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/configuration/security/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/configuration/security/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/dto/category/CategoryItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/dto/category/CategoryModelDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/mappers/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConsole/src/main/java/org/example/mappers/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppConsole/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConsole/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2W5QEQ8ZL73czdmC0I0HE2j0AC9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,12 +81,50 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/vladi/IdeaProjects/Java_PV122/ShopJava/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/vladi/IdeaProjects/Java_PV122/ShopJava/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vladi\IdeaProjects\Java_PV122\ShopJava\src\main\resources" />
+      <recent name="C:\Users\vladi\IdeaProjects\Java_PV122\ShopJava\src\main\java\org\example\dto" />
+      <recent name="C:\Users\vladi\IdeaProjects\Java_PV122\ShopJava\src\main\java\org\example" />
+      <recent name="C:\Users\vladi\IdeaProjects\Java_PV122\ShopJava\src\main\java\org\example\repositories" />
+      <recent name="C:\Users\vladi\IdeaProjects\Java_PV122\ShopJava\src\main\java\org\example\entities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.services" />
+      <recent name="org.example.controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ShopJava" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,19 +133,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696019850314</updated>
-      <workItem from="1696019851622" duration="10000" />
+      <workItem from="1696019851622" duration="1729000" />
+      <workItem from="1696021757122" duration="1083000" />
+      <workItem from="1696072004245" duration="7050000" />
+      <workItem from="1696317165580" duration="4725000" />
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
