@@ -26,4 +26,6 @@ public class UserEntity {
     private String phone;
     @Column(length = 200, nullable = false)
     private String password;
+    @Column(nullable = true)
+    private boolean isGoogleAuth;
 }
