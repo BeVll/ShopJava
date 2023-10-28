@@ -1,7 +1,6 @@
 package org.example.configuration.security;
 
 import lombok.RequiredArgsConstructor;
-import org.example.constants.Roles;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -32,7 +31,7 @@ public class SecurityConfiguration {
                         .requestMatchers("/webjars/**").permitAll()
                         .requestMatchers("/rest-api-docs/**").permitAll()
                         .requestMatchers("/swagger-ui/**").permitAll()
-                        .requestMatchers("/api/products/**").hasAuthority(Roles.Admin)
+                        .requestMatchers("/api/products/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(it->it.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

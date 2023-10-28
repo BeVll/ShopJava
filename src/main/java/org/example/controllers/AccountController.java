@@ -42,7 +42,7 @@ public class AccountController {
     }
 
     @PostMapping("register")
-    public ResponseEntity login(@RequestBody RegisterDto dto) {
+    public ResponseEntity register(@RequestBody RegisterDto dto) {
         try {
             var auth = service.register(dto);
             return ResponseEntity.ok(auth);
